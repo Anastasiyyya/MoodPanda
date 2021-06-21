@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MoodPanda Test Suite" parallel="tests" thread-count="2">
+    <test name="MoodPandaTests">
+        <!--<groups>
+            <run>
+                <include name="Smoke Test" />
+            </run>
+        </groups>-->
+        <classes>
+            <class name="tests.MoodPandaTests" />
+        </classes>
+    </test>
+    <test name="LoginTests">
+        <classes>
+            <class name="tests.LoginTests" />
+        </classes>
+    </test>
+</suite>
